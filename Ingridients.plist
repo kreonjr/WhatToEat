@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Ingridient</key>
+		<string>Tomatoes</string>
+		<key>isSelected</key>
+		<false/>
+		<key>Image</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Ingridient</key>
+		<string>Potatoes</string>
+		<key>isSelected</key>
+		<false/>
+		<key>Image</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Ingridient</key>
+		<string>Pasta</string>
+		<key>isSelected</key>
+		<false/>
+		<key>Image</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Ingridient</key>
+		<string>Milk</string>
+		<key>isSelected</key>
+		<false/>
+		<key>Image</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Ingridient</key>
+		<string>Onions</string>
+		<key>isSelected</key>
+		<false/>
+		<key>Image</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

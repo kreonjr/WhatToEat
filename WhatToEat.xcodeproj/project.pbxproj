@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF25813417173114003893F1 /* AboutBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EF25813317173114003893F1 /* AboutBackground.png */; };
+		EF25813A1717B19E003893F1 /* openFridgeSign.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2581391717B19E003893F1 /* openFridgeSign.png */; };
+		EF25813C1717C2D6003893F1 /* RecipeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EF25813B1717C2D6003893F1 /* RecipeBackground.png */; };
+		EF2DA7DA1708D4CB00661D10 /* Recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF2DA7D91708D4CB00661D10 /* Recipes.plist */; };
+		EF2DA7DE1708D79E00661D10 /* RecipeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2DA7DC1708D79E00661D10 /* RecipeListViewController.m */; };
+		EF2DA7E11708D7C400661D10 /* RecipeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF2DA7E01708D7C400661D10 /* RecipeTableCell.xib */; };
+		EF2DA7E41708D93200661D10 /* RecipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2DA7E31708D93200661D10 /* RecipeTableCell.m */; };
+		EF2DA7E7170952EE00661D10 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2DA7E6170952EE00661D10 /* RecipeDetailViewController.m */; };
+		EF2DA7E9170B37B600661D10 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF2DA7E8170B37B600661D10 /* Alarm.mp3 */; };
+		EF2DA7EB170B37C900661D10 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2DA7EA170B37C900661D10 /* AVFoundation.framework */; };
+		EF2DA7EE170B538C00661D10 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2DA7ED170B538C00661D10 /* InfoViewController.m */; };
+		EF5A9C44171EF949000CBABB /* Eggs.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C43171EF949000CBABB /* Eggs.png */; };
+		EF5A9C49171EF95A000CBABB /* Apples.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C45171EF95A000CBABB /* Apples.png */; };
+		EF5A9C4A171EF95A000CBABB /* Avocado.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C46171EF95A000CBABB /* Avocado.png */; };
+		EF5A9C4B171EF95A000CBABB /* Bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C47171EF95A000CBABB /* Bacon.png */; };
+		EF5A9C4C171EF95A000CBABB /* Baking Powder.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C48171EF95A000CBABB /* Baking Powder.png */; };
+		EF5A9C50171F0667000CBABB /* BBQ Sauce.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C4D171F0667000CBABB /* BBQ Sauce.png */; };
+		EF5A9C51171F0667000CBABB /* Beans.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C4E171F0667000CBABB /* Beans.png */; };
+		EF5A9C5F171F98D4000CBABB /* Beef Broth.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C55171F98D4000CBABB /* Beef Broth.png */; };
+		EF5A9C60171F98D4000CBABB /* Beef.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C56171F98D4000CBABB /* Beef.png */; };
+		EF5A9C61171F98D4000CBABB /* Beer.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C57171F98D4000CBABB /* Beer.png */; };
+		EF5A9C62171F98D4000CBABB /* Bread Dough.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C58171F98D4000CBABB /* Bread Dough.png */; };
+		EF5A9C63171F98D4000CBABB /* Bread.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C59171F98D4000CBABB /* Bread.png */; };
+		EF5A9C64171F98D4000CBABB /* Butter.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C5A171F98D4000CBABB /* Butter.png */; };
+		EF5A9C65171F98D4000CBABB /* Cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C5B171F98D4000CBABB /* Cheese.png */; };
+		EF5A9C66171F98D4000CBABB /* Chicken Broth.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C5C171F98D4000CBABB /* Chicken Broth.png */; };
+		EF5A9C67171F98D4000CBABB /* Chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C5D171F98D4000CBABB /* Chicken.png */; };
+		EF5A9C68171F98D4000CBABB /* Chilli.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C5E171F98D4000CBABB /* Chilli.png */; };
+		EF5A9C6B171F9937000CBABB /* Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C69171F9937000CBABB /* Fish.png */; };
+		EF5A9C6C171F9937000CBABB /* Flour.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C6A171F9937000CBABB /* Flour.png */; };
+		EF5A9C7A171F9C79000CBABB /* Garlic.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C6D171F9C79000CBABB /* Garlic.png */; };
+		EF5A9C7B171F9C79000CBABB /* Ground Beef.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C6E171F9C79000CBABB /* Ground Beef.png */; };
+		EF5A9C7C171F9C79000CBABB /* Honey.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C6F171F9C79000CBABB /* Honey.png */; };
+		EF5A9C7D171F9C79000CBABB /* Ketchup.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C70171F9C79000CBABB /* Ketchup.png */; };
+		EF5A9C7E171F9C79000CBABB /* Lemon Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C71171F9C79000CBABB /* Lemon Juice.png */; };
+		EF5A9C7F171F9C79000CBABB /* Lime Juice.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C72171F9C79000CBABB /* Lime Juice.png */; };
+		EF5A9C80171F9C79000CBABB /* Mayonnaise.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C73171F9C79000CBABB /* Mayonnaise.png */; };
+		EF5A9C81171F9C79000CBABB /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C74171F9C79000CBABB /* Milk.png */; };
+		EF5A9C82171F9C79000CBABB /* Noodles.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C75171F9C79000CBABB /* Noodles.png */; };
+		EF5A9C83171F9C79000CBABB /* Pasta.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C76171F9C79000CBABB /* Pasta.png */; };
+		EF5A9C84171F9C79000CBABB /* Peanut Butter.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C77171F9C79000CBABB /* Peanut Butter.png */; };
+		EF5A9C85171F9C79000CBABB /* Peppers.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C78171F9C79000CBABB /* Peppers.png */; };
+		EF5A9C86171F9C79000CBABB /* Potatoes.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C79171F9C79000CBABB /* Potatoes.png */; };
+		EF5A9C8F171F9ECA000CBABB /* Rice.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C87171F9ECA000CBABB /* Rice.png */; };
+		EF5A9C90171F9ECA000CBABB /* Salsa.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C88171F9ECA000CBABB /* Salsa.png */; };
+		EF5A9C91171F9ECA000CBABB /* Steak.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C89171F9ECA000CBABB /* Steak.png */; };
+		EF5A9C92171F9ECA000CBABB /* Sugar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C8A171F9ECA000CBABB /* Sugar.png */; };
+		EF5A9C93171F9ECA000CBABB /* Tomatoes.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C8B171F9ECA000CBABB /* Tomatoes.png */; };
+		EF5A9C94171F9ECA000CBABB /* Tortilla.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C8C171F9ECA000CBABB /* Tortilla.png */; };
+		EF5A9C95171F9ECA000CBABB /* Tuna.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C8D171F9ECA000CBABB /* Tuna.png */; };
+		EF5A9C96171F9ECA000CBABB /* Vinegar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C8E171F9ECA000CBABB /* Vinegar.png */; };
+		EF5A9C98171F9ED6000CBABB /* Oil.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C97171F9ED6000CBABB /* Oil.png */; };
+		EF5A9C9B171FCDF5000CBABB /* detailClose.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C99171FCDF5000CBABB /* detailClose.png */; };
+		EF5A9C9C171FCDF5000CBABB /* detailOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5A9C9A171FCDF5000CBABB /* detailOpen.png */; };
+		EF5A9C9E17206CAF000CBABB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5A9C9D17206CAF000CBABB /* MessageUI.framework */; };
+		EF5A9CA017206CB5000CBABB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5A9C9F17206CB5000CBABB /* QuartzCore.framework */; };
+		EF773EC217066A44006BB2B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF773EC117066A44006BB2B3 /* UIKit.framework */; };
+		EF773EC417066A44006BB2B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF773EC317066A44006BB2B3 /* Foundation.framework */; };
+		EF773EC617066A44006BB2B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF773EC517066A44006BB2B3 /* CoreGraphics.framework */; };
+		EF773ECC17066A44006BB2B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF773ECA17066A44006BB2B3 /* InfoPlist.strings */; };
+		EF773ECE17066A44006BB2B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF773ECD17066A44006BB2B3 /* main.m */; };
+		EF773ED217066A44006BB2B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF773ED117066A44006BB2B3 /* AppDelegate.m */; };
+		EF773ED417066A44006BB2B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF773ED317066A44006BB2B3 /* Default.png */; };
+		EF773ED617066A44006BB2B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF773ED517066A44006BB2B3 /* Default@2x.png */; };
+		EF773ED817066A44006BB2B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF773ED717066A44006BB2B3 /* Default-568h@2x.png */; };
+		EF773EDB17066A44006BB2B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF773ED917066A44006BB2B3 /* MainStoryboard.storyboard */; };
+		EF773EDE17066A44006BB2B3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF773EDD17066A44006BB2B3 /* MainViewController.m */; };
+		EF773EF417067D8E006BB2B3 /* IngridientTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF773EF317067D8E006BB2B3 /* IngridientTableViewController.m */; };
+		EF773EF617068214006BB2B3 /* Ingredients.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF773EF517068214006BB2B3 /* Ingredients.plist */; };
+		EF7AA72D172100D8003140B2 /* iPhoneIcon_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7AA72C172100D8003140B2 /* iPhoneIcon_Small.png */; };
+		EF7AA72F17210107003140B2 /* iPhoneIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7AA72E17210107003140B2 /* iPhoneIcon_Big.png */; };
+		EF7AA73217219EA7003140B2 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7AA73117219EA7003140B2 /* FavoritesViewController.m */; };
+		EFB58D0117FE39ED00730630 /* pickerBackground copy.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB58D0017FE39ED00730630 /* pickerBackground copy.png */; };
+		EFC945551719C1DA00546AEF /* IngredientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC945541719C1DA00546AEF /* IngredientCell.m */; };
+		EFCA200D17150C9F00DD888A /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCA200C17150C9F00DD888A /* Background.png */; };
+		EFCA200F171530A900DD888A /* OpenFridge.png in Resources */ = {isa = PBXBuildFile; fileRef = EFCA200E171530A900DD888A /* OpenFridge.png */; };
+		EFDCA89218033FDA00AD56CA /* feedbackbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDCA89118033FDA00AD56CA /* feedbackbtn.png */; };
+		EFE1A3151724BF06003B9C59 /* Corn.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE1A3141724BF06003B9C59 /* Corn.png */; };
+		EFE1A33E172602CB003B9C59 /* Oats.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE1A33D172602CB003B9C59 /* Oats.png */; };
+		EFE4B1D11726734E003F1BE2 /* webLink.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE4B1D01726734E003F1BE2 /* webLink.png */; };
+		EFF5B4ED182F14D8003AE26C /* alertIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFF5B4EC182F14D8003AE26C /* alertIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF25813317173114003893F1 /* AboutBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutBackground.png; sourceTree = "<group>"; };
+		EF2581391717B19E003893F1 /* openFridgeSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openFridgeSign.png; sourceTree = "<group>"; };
+		EF25813B1717C2D6003893F1 /* RecipeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecipeBackground.png; sourceTree = "<group>"; };
+		EF2DA7D91708D4CB00661D10 /* Recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Recipes.plist; sourceTree = "<group>"; };
+		EF2DA7DB1708D79E00661D10 /* RecipeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListViewController.h; sourceTree = "<group>"; };
+		EF2DA7DC1708D79E00661D10 /* RecipeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListViewController.m; sourceTree = "<group>"; };
+		EF2DA7E01708D7C400661D10 /* RecipeTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecipeTableCell.xib; path = ../RecipeTableCell.xib; sourceTree = "<group>"; };
+		EF2DA7E21708D93200661D10 /* RecipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeTableCell.h; path = ../RecipeTableCell.h; sourceTree = "<group>"; };
+		EF2DA7E31708D93200661D10 /* RecipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeTableCell.m; path = ../RecipeTableCell.m; sourceTree = "<group>"; };
+		EF2DA7E5170952EE00661D10 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		EF2DA7E6170952EE00661D10 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		EF2DA7E8170B37B600661D10 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
+		EF2DA7EA170B37C900661D10 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF2DA7EC170B538C00661D10 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		EF2DA7ED170B538C00661D10 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		EF5A9C43171EF949000CBABB /* Eggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eggs.png; sourceTree = "<group>"; };
+		EF5A9C45171EF95A000CBABB /* Apples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apples.png; sourceTree = "<group>"; };
+		EF5A9C46171EF95A000CBABB /* Avocado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Avocado.png; sourceTree = "<group>"; };
+		EF5A9C47171EF95A000CBABB /* Bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bacon.png; sourceTree = "<group>"; };
+		EF5A9C48171EF95A000CBABB /* Baking Powder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Baking Powder.png"; sourceTree = "<group>"; };
+		EF5A9C4D171F0667000CBABB /* BBQ Sauce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BBQ Sauce.png"; sourceTree = "<group>"; };
+		EF5A9C4E171F0667000CBABB /* Beans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beans.png; sourceTree = "<group>"; };
+		EF5A9C55171F98D4000CBABB /* Beef Broth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beef Broth.png"; sourceTree = "<group>"; };
+		EF5A9C56171F98D4000CBABB /* Beef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beef.png; sourceTree = "<group>"; };
+		EF5A9C57171F98D4000CBABB /* Beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beer.png; sourceTree = "<group>"; };
+		EF5A9C58171F98D4000CBABB /* Bread Dough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bread Dough.png"; sourceTree = "<group>"; };
+		EF5A9C59171F98D4000CBABB /* Bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bread.png; sourceTree = "<group>"; };
+		EF5A9C5A171F98D4000CBABB /* Butter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Butter.png; sourceTree = "<group>"; };
+		EF5A9C5B171F98D4000CBABB /* Cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cheese.png; sourceTree = "<group>"; };
+		EF5A9C5C171F98D4000CBABB /* Chicken Broth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chicken Broth.png"; sourceTree = "<group>"; };
+		EF5A9C5D171F98D4000CBABB /* Chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chicken.png; sourceTree = "<group>"; };
+		EF5A9C5E171F98D4000CBABB /* Chilli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chilli.png; sourceTree = "<group>"; };
+		EF5A9C69171F9937000CBABB /* Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fish.png; sourceTree = "<group>"; };
+		EF5A9C6A171F9937000CBABB /* Flour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flour.png; sourceTree = "<group>"; };
+		EF5A9C6D171F9C79000CBABB /* Garlic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garlic.png; sourceTree = "<group>"; };
+		EF5A9C6E171F9C79000CBABB /* Ground Beef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ground Beef.png"; sourceTree = "<group>"; };
+		EF5A9C6F171F9C79000CBABB /* Honey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Honey.png; sourceTree = "<group>"; };
+		EF5A9C70171F9C79000CBABB /* Ketchup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ketchup.png; sourceTree = "<group>"; };
+		EF5A9C71171F9C79000CBABB /* Lemon Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemon Juice.png"; sourceTree = "<group>"; };
+		EF5A9C72171F9C79000CBABB /* Lime Juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lime Juice.png"; sourceTree = "<group>"; };
+		EF5A9C73171F9C79000CBABB /* Mayonnaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mayonnaise.png; sourceTree = "<group>"; };
+		EF5A9C74171F9C79000CBABB /* Milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milk.png; sourceTree = "<group>"; };
+		EF5A9C75171F9C79000CBABB /* Noodles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noodles.png; sourceTree = "<group>"; };
+		EF5A9C76171F9C79000CBABB /* Pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pasta.png; sourceTree = "<group>"; };
+		EF5A9C77171F9C79000CBABB /* Peanut Butter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peanut Butter.png"; sourceTree = "<group>"; };
+		EF5A9C78171F9C79000CBABB /* Peppers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Peppers.png; sourceTree = "<group>"; };
+		EF5A9C79171F9C79000CBABB /* Potatoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Potatoes.png; sourceTree = "<group>"; };
+		EF5A9C87171F9ECA000CBABB /* Rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rice.png; sourceTree = "<group>"; };
+		EF5A9C88171F9ECA000CBABB /* Salsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Salsa.png; sourceTree = "<group>"; };
+		EF5A9C89171F9ECA000CBABB /* Steak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steak.png; sourceTree = "<group>"; };
+		EF5A9C8A171F9ECA000CBABB /* Sugar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sugar.png; sourceTree = "<group>"; };
+		EF5A9C8B171F9ECA000CBABB /* Tomatoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tomatoes.png; sourceTree = "<group>"; };
+		EF5A9C8C171F9ECA000CBABB /* Tortilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tortilla.png; sourceTree = "<group>"; };
+		EF5A9C8D171F9ECA000CBABB /* Tuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tuna.png; sourceTree = "<group>"; };
+		EF5A9C8E171F9ECA000CBABB /* Vinegar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vinegar.png; sourceTree = "<group>"; };
+		EF5A9C97171F9ED6000CBABB /* Oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oil.png; sourceTree = "<group>"; };
+		EF5A9C99171FCDF5000CBABB /* detailClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailClose.png; sourceTree = "<group>"; };
+		EF5A9C9A171FCDF5000CBABB /* detailOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailOpen.png; sourceTree = "<group>"; };
+		EF5A9C9D17206CAF000CBABB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EF5A9C9F17206CB5000CBABB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF773EBE17066A44006BB2B3 /* WhatToEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF773EC117066A44006BB2B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF773EC317066A44006BB2B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF773EC517066A44006BB2B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF773EC917066A44006BB2B3 /* WhatToEat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhatToEat-Info.plist"; sourceTree = "<group>"; };
+		EF773ECB17066A44006BB2B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF773ECD17066A44006BB2B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF773ECF17066A44006BB2B3 /* WhatToEat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatToEat-Prefix.pch"; sourceTree = "<group>"; };
+		EF773ED017066A44006BB2B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF773ED117066A44006BB2B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF773ED317066A44006BB2B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF773ED517066A44006BB2B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF773ED717066A44006BB2B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF773EDA17066A44006BB2B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EF773EDC17066A44006BB2B3 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EF773EDD17066A44006BB2B3 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EF773EF217067D8E006BB2B3 /* IngridientTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IngridientTableViewController.h; path = ../IngridientTableViewController.h; sourceTree = "<group>"; };
+		EF773EF317067D8E006BB2B3 /* IngridientTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IngridientTableViewController.m; path = ../IngridientTableViewController.m; sourceTree = "<group>"; };
+		EF773EF517068214006BB2B3 /* Ingredients.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Ingredients.plist; path = ../Ingredients.plist; sourceTree = "<group>"; };
+		EF7AA72C172100D8003140B2 /* iPhoneIcon_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Small.png; path = ../iPhoneIcon_Small.png; sourceTree = "<group>"; };
+		EF7AA72E17210107003140B2 /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Big.png; path = ../iPhoneIcon_Big.png; sourceTree = "<group>"; };
+		EF7AA73017219EA7003140B2 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		EF7AA73117219EA7003140B2 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		EFB58D0017FE39ED00730630 /* pickerBackground copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerBackground copy.png"; sourceTree = "<group>"; };
+		EFC945531719C1DA00546AEF /* IngredientCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IngredientCell.h; path = ../IngredientCell.h; sourceTree = "<group>"; };
+		EFC945541719C1DA00546AEF /* IngredientCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IngredientCell.m; path = ../IngredientCell.m; sourceTree = "<group>"; };
+		EFCA200C17150C9F00DD888A /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		EFCA200E171530A900DD888A /* OpenFridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenFridge.png; sourceTree = "<group>"; };
+		EFDCA89118033FDA00AD56CA /* feedbackbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedbackbtn.png; sourceTree = "<group>"; };
+		EFE1A3141724BF06003B9C59 /* Corn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Corn.png; sourceTree = "<group>"; };
+		EFE1A33D172602CB003B9C59 /* Oats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oats.png; sourceTree = "<group>"; };
+		EFE4B1D01726734E003F1BE2 /* webLink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webLink.png; sourceTree = "<group>"; };
+		EFF5B4EC182F14D8003AE26C /* alertIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF773EBB17066A44006BB2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF773EC217066A44006BB2B3 /* UIKit.framework in Frameworks */,
+				EF5A9CA017206CB5000CBABB /* QuartzCore.framework in Frameworks */,
+				EF5A9C9E17206CAF000CBABB /* MessageUI.framework in Frameworks */,
+				EF2DA7EB170B37C900661D10 /* AVFoundation.framework in Frameworks */,
+				EF773EC417066A44006BB2B3 /* Foundation.framework in Frameworks */,
+				EF773EC617066A44006BB2B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF773EB517066A44006BB2B3 = {
+			isa = PBXGroup;
+			children = (
+				EF773EC717066A44006BB2B3 /* WhatToEat */,
+				EF773EC017066A44006BB2B3 /* Frameworks */,
+				EF773EBF17066A44006BB2B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF773EBF17066A44006BB2B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF773EBE17066A44006BB2B3 /* WhatToEat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF773EC017066A44006BB2B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A9C9F17206CB5000CBABB /* QuartzCore.framework */,
+				EF5A9C9D17206CAF000CBABB /* MessageUI.framework */,
+				EF2DA7EA170B37C900661D10 /* AVFoundation.framework */,
+				EF773EC117066A44006BB2B3 /* UIKit.framework */,
+				EF773EC317066A44006BB2B3 /* Foundation.framework */,
+				EF773EC517066A44006BB2B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF773EC717066A44006BB2B3 /* WhatToEat */ = {
+			isa = PBXGroup;
+			children = (
+				EFE1A33F172636B0003B9C59 /* Classes */,
+				EF773EC817066A44006BB2B3 /* Supporting Files */,
+			);
+			path = WhatToEat;
+			sourceTree = "<group>";
+		};
+		EF773EC817066A44006BB2B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2DA7E8170B37B600661D10 /* Alarm.mp3 */,
+				EFCA20131715CEFE00DD888A /* IngredientsImages */,
+				EFCA20141715CF0E00DD888A /* Misc Images */,
+				EF2DA7D91708D4CB00661D10 /* Recipes.plist */,
+				EF773EF517068214006BB2B3 /* Ingredients.plist */,
+				EF773EC917066A44006BB2B3 /* WhatToEat-Info.plist */,
+				EF773ECA17066A44006BB2B3 /* InfoPlist.strings */,
+				EF773ECD17066A44006BB2B3 /* main.m */,
+				EF773ECF17066A44006BB2B3 /* WhatToEat-Prefix.pch */,
+				EF7AA72E17210107003140B2 /* iPhoneIcon_Big.png */,
+				EF7AA72C172100D8003140B2 /* iPhoneIcon_Small.png */,
+				EF773ED317066A44006BB2B3 /* Default.png */,
+				EF773ED517066A44006BB2B3 /* Default@2x.png */,
+				EF773ED717066A44006BB2B3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFCA20131715CEFE00DD888A /* IngredientsImages */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A9C4D171F0667000CBABB /* BBQ Sauce.png */,
+				EF5A9C4E171F0667000CBABB /* Beans.png */,
+				EF5A9C55171F98D4000CBABB /* Beef Broth.png */,
+				EF5A9C6D171F9C79000CBABB /* Garlic.png */,
+				EF5A9C6E171F9C79000CBABB /* Ground Beef.png */,
+				EF5A9C6F171F9C79000CBABB /* Honey.png */,
+				EFE1A33D172602CB003B9C59 /* Oats.png */,
+				EF5A9C70171F9C79000CBABB /* Ketchup.png */,
+				EF5A9C71171F9C79000CBABB /* Lemon Juice.png */,
+				EF5A9C72171F9C79000CBABB /* Lime Juice.png */,
+				EF5A9C73171F9C79000CBABB /* Mayonnaise.png */,
+				EF5A9C74171F9C79000CBABB /* Milk.png */,
+				EF5A9C75171F9C79000CBABB /* Noodles.png */,
+				EF5A9C76171F9C79000CBABB /* Pasta.png */,
+				EF5A9C77171F9C79000CBABB /* Peanut Butter.png */,
+				EF5A9C78171F9C79000CBABB /* Peppers.png */,
+				EF5A9C79171F9C79000CBABB /* Potatoes.png */,
+				EF5A9C56171F98D4000CBABB /* Beef.png */,
+				EF5A9C57171F98D4000CBABB /* Beer.png */,
+				EF5A9C58171F98D4000CBABB /* Bread Dough.png */,
+				EF5A9C59171F98D4000CBABB /* Bread.png */,
+				EF5A9C5A171F98D4000CBABB /* Butter.png */,
+				EF5A9C87171F9ECA000CBABB /* Rice.png */,
+				EF5A9C88171F9ECA000CBABB /* Salsa.png */,
+				EF5A9C89171F9ECA000CBABB /* Steak.png */,
+				EF5A9C97171F9ED6000CBABB /* Oil.png */,
+				EF5A9C8A171F9ECA000CBABB /* Sugar.png */,
+				EF5A9C8B171F9ECA000CBABB /* Tomatoes.png */,
+				EF5A9C8C171F9ECA000CBABB /* Tortilla.png */,
+				EF5A9C8D171F9ECA000CBABB /* Tuna.png */,
+				EF5A9C8E171F9ECA000CBABB /* Vinegar.png */,
+				EF5A9C5B171F98D4000CBABB /* Cheese.png */,
+				EF5A9C5C171F98D4000CBABB /* Chicken Broth.png */,
+				EF5A9C69171F9937000CBABB /* Fish.png */,
+				EF5A9C6A171F9937000CBABB /* Flour.png */,
+				EF5A9C5D171F98D4000CBABB /* Chicken.png */,
+				EF5A9C5E171F98D4000CBABB /* Chilli.png */,
+				EF5A9C45171EF95A000CBABB /* Apples.png */,
+				EF5A9C46171EF95A000CBABB /* Avocado.png */,
+				EF5A9C47171EF95A000CBABB /* Bacon.png */,
+				EF5A9C48171EF95A000CBABB /* Baking Powder.png */,
+				EFE1A3141724BF06003B9C59 /* Corn.png */,
+				EF5A9C43171EF949000CBABB /* Eggs.png */,
+			);
+			name = IngredientsImages;
+			sourceTree = "<group>";
+		};
+		EFCA20141715CF0E00DD888A /* Misc Images */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4B1D01726734E003F1BE2 /* webLink.png */,
+				EF5A9C99171FCDF5000CBABB /* detailClose.png */,
+				EF5A9C9A171FCDF5000CBABB /* detailOpen.png */,
+				EFDCA89118033FDA00AD56CA /* feedbackbtn.png */,
+				EFB58D0017FE39ED00730630 /* pickerBackground copy.png */,
+				EF2581391717B19E003893F1 /* openFridgeSign.png */,
+				EF25813317173114003893F1 /* AboutBackground.png */,
+				EF25813B1717C2D6003893F1 /* RecipeBackground.png */,
+				EFF5B4EC182F14D8003AE26C /* alertIcon.png */,
+				EFCA200E171530A900DD888A /* OpenFridge.png */,
+				EFCA200C17150C9F00DD888A /* Background.png */,
+			);
+			name = "Misc Images";
+			sourceTree = "<group>";
+		};
+		EFE1A33F172636B0003B9C59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF773ED917066A44006BB2B3 /* MainStoryboard.storyboard */,
+				EF773ED017066A44006BB2B3 /* AppDelegate.h */,
+				EF773ED117066A44006BB2B3 /* AppDelegate.m */,
+				EF773EDC17066A44006BB2B3 /* MainViewController.h */,
+				EF773EDD17066A44006BB2B3 /* MainViewController.m */,
+				EFC945531719C1DA00546AEF /* IngredientCell.h */,
+				EFC945541719C1DA00546AEF /* IngredientCell.m */,
+				EF2DA7E01708D7C400661D10 /* RecipeTableCell.xib */,
+				EF2DA7E21708D93200661D10 /* RecipeTableCell.h */,
+				EF2DA7E31708D93200661D10 /* RecipeTableCell.m */,
+				EF2DA7EC170B538C00661D10 /* InfoViewController.h */,
+				EF2DA7ED170B538C00661D10 /* InfoViewController.m */,
+				EF773EF217067D8E006BB2B3 /* IngridientTableViewController.h */,
+				EF773EF317067D8E006BB2B3 /* IngridientTableViewController.m */,
+				EF2DA7DB1708D79E00661D10 /* RecipeListViewController.h */,
+				EF2DA7DC1708D79E00661D10 /* RecipeListViewController.m */,
+				EF2DA7E5170952EE00661D10 /* RecipeDetailViewController.h */,
+				EF2DA7E6170952EE00661D10 /* RecipeDetailViewController.m */,
+				EF7AA73017219EA7003140B2 /* FavoritesViewController.h */,
+				EF7AA73117219EA7003140B2 /* FavoritesViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF773EBD17066A44006BB2B3 /* WhatToEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF773EE417066A44006BB2B3 /* Build configuration list for PBXNativeTarget "WhatToEat" */;
+			buildPhases = (
+				EF773EBA17066A44006BB2B3 /* Sources */,
+				EF773EBB17066A44006BB2B3 /* Frameworks */,
+				EF773EBC17066A44006BB2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatToEat;
+			productName = WhatToEat;
+			productReference = EF773EBE17066A44006BB2B3 /* WhatToEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF773EB617066A44006BB2B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = EF773EB917066A44006BB2B3 /* Build configuration list for PBXProject "WhatToEat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF773EB517066A44006BB2B3;
+			productRefGroup = EF773EBF17066A44006BB2B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF773EBD17066A44006BB2B3 /* WhatToEat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF773EBC17066A44006BB2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF773ECC17066A44006BB2B3 /* InfoPlist.strings in Resources */,
+				EF773ED417066A44006BB2B3 /* Default.png in Resources */,
+				EF773ED617066A44006BB2B3 /* Default@2x.png in Resources */,
+				EF773ED817066A44006BB2B3 /* Default-568h@2x.png in Resources */,
+				EF773EDB17066A44006BB2B3 /* MainStoryboard.storyboard in Resources */,
+				EF773EF617068214006BB2B3 /* Ingredients.plist in Resources */,
+				EF2DA7DA1708D4CB00661D10 /* Recipes.plist in Resources */,
+				EF2DA7E11708D7C400661D10 /* RecipeTableCell.xib in Resources */,
+				EF2DA7E9170B37B600661D10 /* Alarm.mp3 in Resources */,
+				EFCA200D17150C9F00DD888A /* Background.png in Resources */,
+				EFCA200F171530A900DD888A /* OpenFridge.png in Resources */,
+				EF25813417173114003893F1 /* AboutBackground.png in Resources */,
+				EF25813A1717B19E003893F1 /* openFridgeSign.png in Resources */,
+				EF25813C1717C2D6003893F1 /* RecipeBackground.png in Resources */,
+				EF5A9C44171EF949000CBABB /* Eggs.png in Resources */,
+				EF5A9C49171EF95A000CBABB /* Apples.png in Resources */,
+				EFDCA89218033FDA00AD56CA /* feedbackbtn.png in Resources */,
+				EF5A9C4A171EF95A000CBABB /* Avocado.png in Resources */,
+				EF5A9C4B171EF95A000CBABB /* Bacon.png in Resources */,
+				EF5A9C4C171EF95A000CBABB /* Baking Powder.png in Resources */,
+				EF5A9C50171F0667000CBABB /* BBQ Sauce.png in Resources */,
+				EF5A9C51171F0667000CBABB /* Beans.png in Resources */,
+				EFF5B4ED182F14D8003AE26C /* alertIcon.png in Resources */,
+				EF5A9C5F171F98D4000CBABB /* Beef Broth.png in Resources */,
+				EF5A9C60171F98D4000CBABB /* Beef.png in Resources */,
+				EF5A9C61171F98D4000CBABB /* Beer.png in Resources */,
+				EF5A9C62171F98D4000CBABB /* Bread Dough.png in Resources */,
+				EF5A9C63171F98D4000CBABB /* Bread.png in Resources */,
+				EF5A9C64171F98D4000CBABB /* Butter.png in Resources */,
+				EF5A9C65171F98D4000CBABB /* Cheese.png in Resources */,
+				EF5A9C66171F98D4000CBABB /* Chicken Broth.png in Resources */,
+				EF5A9C67171F98D4000CBABB /* Chicken.png in Resources */,
+				EF5A9C68171F98D4000CBABB /* Chilli.png in Resources */,
+				EF5A9C6B171F9937000CBABB /* Fish.png in Resources */,
+				EF5A9C6C171F9937000CBABB /* Flour.png in Resources */,
+				EF5A9C7A171F9C79000CBABB /* Garlic.png in Resources */,
+				EF5A9C7B171F9C79000CBABB /* Ground Beef.png in Resources */,
+				EF5A9C7C171F9C79000CBABB /* Honey.png in Resources */,
+				EF5A9C7D171F9C79000CBABB /* Ketchup.png in Resources */,
+				EF5A9C7E171F9C79000CBABB /* Lemon Juice.png in Resources */,
+				EF5A9C7F171F9C79000CBABB /* Lime Juice.png in Resources */,
+				EF5A9C80171F9C79000CBABB /* Mayonnaise.png in Resources */,
+				EF5A9C81171F9C79000CBABB /* Milk.png in Resources */,
+				EF5A9C82171F9C79000CBABB /* Noodles.png in Resources */,
+				EF5A9C83171F9C79000CBABB /* Pasta.png in Resources */,
+				EF5A9C84171F9C79000CBABB /* Peanut Butter.png in Resources */,
+				EF5A9C85171F9C79000CBABB /* Peppers.png in Resources */,
+				EF5A9C86171F9C79000CBABB /* Potatoes.png in Resources */,
+				EF5A9C8F171F9ECA000CBABB /* Rice.png in Resources */,
+				EF5A9C90171F9ECA000CBABB /* Salsa.png in Resources */,
+				EF5A9C91171F9ECA000CBABB /* Steak.png in Resources */,
+				EF5A9C92171F9ECA000CBABB /* Sugar.png in Resources */,
+				EFB58D0117FE39ED00730630 /* pickerBackground copy.png in Resources */,
+				EF5A9C93171F9ECA000CBABB /* Tomatoes.png in Resources */,
+				EF5A9C94171F9ECA000CBABB /* Tortilla.png in Resources */,
+				EF5A9C95171F9ECA000CBABB /* Tuna.png in Resources */,
+				EF5A9C96171F9ECA000CBABB /* Vinegar.png in Resources */,
+				EF5A9C98171F9ED6000CBABB /* Oil.png in Resources */,
+				EF5A9C9B171FCDF5000CBABB /* detailClose.png in Resources */,
+				EF5A9C9C171FCDF5000CBABB /* detailOpen.png in Resources */,
+				EF7AA72D172100D8003140B2 /* iPhoneIcon_Small.png in Resources */,
+				EF7AA72F17210107003140B2 /* iPhoneIcon_Big.png in Resources */,
+				EFE1A3151724BF06003B9C59 /* Corn.png in Resources */,
+				EFE1A33E172602CB003B9C59 /* Oats.png in Resources */,
+				EFE4B1D11726734E003F1BE2 /* webLink.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF773EBA17066A44006BB2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF773ECE17066A44006BB2B3 /* main.m in Sources */,
+				EF773ED217066A44006BB2B3 /* AppDelegate.m in Sources */,
+				EF773EDE17066A44006BB2B3 /* MainViewController.m in Sources */,
+				EF773EF417067D8E006BB2B3 /* IngridientTableViewController.m in Sources */,
+				EF2DA7DE1708D79E00661D10 /* RecipeListViewController.m in Sources */,
+				EF2DA7E41708D93200661D10 /* RecipeTableCell.m in Sources */,
+				EF2DA7E7170952EE00661D10 /* RecipeDetailViewController.m in Sources */,
+				EF2DA7EE170B538C00661D10 /* InfoViewController.m in Sources */,
+				EFC945551719C1DA00546AEF /* IngredientCell.m in Sources */,
+				EF7AA73217219EA7003140B2 /* FavoritesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF773ECA17066A44006BB2B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF773ECB17066A44006BB2B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF773ED917066A44006BB2B3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF773EDA17066A44006BB2B3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF773EE217066A44006BB2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Creon Creonopoulos (BA9JPKG7N5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Creon Creonopoulos (BA9JPKG7N5)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8B0C448E-EEB8-4A69-B219-3ED5EA3E4F00";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8B0C448E-EEB8-4A69-B219-3ED5EA3E4F00";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF773EE317066A44006BB2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Creon Creonopoulos (BA9JPKG7N5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Creon Creonopoulos (BA9JPKG7N5)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "8B0C448E-EEB8-4A69-B219-3ED5EA3E4F00";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8B0C448E-EEB8-4A69-B219-3ED5EA3E4F00";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF773EE517066A44006BB2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatToEat/WhatToEat-Prefix.pch";
+				INFOPLIST_FILE = "WhatToEat/WhatToEat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF773EE617066A44006BB2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatToEat/WhatToEat-Prefix.pch";
+				INFOPLIST_FILE = "WhatToEat/WhatToEat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF773EB917066A44006BB2B3 /* Build configuration list for PBXProject "WhatToEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF773EE217066A44006BB2B3 /* Debug */,
+				EF773EE317066A44006BB2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF773EE417066A44006BB2B3 /* Build configuration list for PBXNativeTarget "WhatToEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF773EE517066A44006BB2B3 /* Debug */,
+				EF773EE617066A44006BB2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF773EB617066A44006BB2B3 /* Project object */;
+}
