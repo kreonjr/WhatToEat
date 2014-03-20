@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0731F42E-6097-4A39-84CF-906D6608EB6D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WhatToEat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5EB7480A-2CAC-4915-9723-93297219F73E</key>
+		<string>https://github.com/kreonjr/WhatToEat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WhatToEat.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5EB7480A-2CAC-4915-9723-93297219F73E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kreonjr/WhatToEat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5EB7480A-2CAC-4915-9723-93297219F73E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5EB7480A-2CAC-4915-9723-93297219F73E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WhatToEat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
