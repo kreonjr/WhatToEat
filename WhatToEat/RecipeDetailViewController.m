@@ -160,8 +160,7 @@
 
 //Initialization of a timer object that calls the timerRun method
 - (void)setTimer{
-    
-    timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerRun) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerRun) userInfo:nil repeats:YES];
 }
 
 
@@ -176,7 +175,7 @@
     //Enable the start timer
     OpenTimerButton.enabled = TRUE;
     //Reset the title of the stop timer button
-    CloseTimerButton.title = @"Close Timer";
+    CloseTimerButton.title = @"";
     
     
     
@@ -186,6 +185,7 @@
 - (IBAction)OpenTimer:(id)sender {
     
     PickerContainerView.hidden=FALSE;
+    CloseTimerButton.title = @"Close Timer";
     
 }
 
@@ -288,9 +288,9 @@
 }
 
 - (IBAction)StartTimer:(id)sender {
-    [self setTimer];
-    CloseTimerButton.title = @"Close Timer";
-    PickerContainerView.hidden=TRUE;
+            [self setTimer];
+            CloseTimerButton.title = @"Stop Timer";
+            PickerContainerView.hidden=TRUE;
 }
 
 
