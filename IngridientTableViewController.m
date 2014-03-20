@@ -206,9 +206,6 @@
     
     NSIndexPath *indexPath = [TableView indexPathForCell:cell];
 
-    
-    NSLog(@"%i",indexPath.row);
-    
     //if the switch is on and the recipe does not already exist in selection array
     if(sender.isOn && ![SelectionsArray containsObject:[[Ingridients objectAtIndex:indexPath.row] objectForKey:@"Ingredient"]])
         {
