@@ -497,7 +497,7 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="0E3-23-T5b"/>
-                        <barButtonItem title="Close Timer" id="pRx-Ay-7eK">
+                        <barButtonItem id="pRx-Ay-7eK">
                             <connections>
                                 <action selector="CloseTimer:" destination="SRM-zH-9uP" id="5by-g1-cmG"/>
                             </connections>
