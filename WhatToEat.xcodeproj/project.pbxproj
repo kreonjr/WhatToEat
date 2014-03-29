@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF22878718E656AF00C2F14E /* warning-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF22878618E656AF00C2F14E /* warning-icon.png */; };
 		EF25813417173114003893F1 /* AboutBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EF25813317173114003893F1 /* AboutBackground.png */; };
 		EF25813A1717B19E003893F1 /* openFridgeSign.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2581391717B19E003893F1 /* openFridgeSign.png */; };
 		EF25813C1717C2D6003893F1 /* RecipeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EF25813B1717C2D6003893F1 /* RecipeBackground.png */; };
@@ -91,6 +92,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF22878618E656AF00C2F14E /* warning-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning-icon.png"; sourceTree = "<group>"; };
 		EF25813317173114003893F1 /* AboutBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutBackground.png; sourceTree = "<group>"; };
 		EF2581391717B19E003893F1 /* openFridgeSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openFridgeSign.png; sourceTree = "<group>"; };
 		EF25813B1717C2D6003893F1 /* RecipeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecipeBackground.png; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 			children = (
 				EFE4B1D01726734E003F1BE2 /* webLink.png */,
 				EF5A9C99171FCDF5000CBABB /* detailClose.png */,
+				EF22878618E656AF00C2F14E /* warning-icon.png */,
 				EF5A9C9A171FCDF5000CBABB /* detailOpen.png */,
 				EFDCA89118033FDA00AD56CA /* feedbackbtn.png */,
 				EFB58D0017FE39ED00730630 /* pickerBackground copy.png */,
@@ -456,6 +459,7 @@
 				EF5A9C83171F9C79000CBABB /* Pasta.png in Resources */,
 				EF5A9C84171F9C79000CBABB /* Peanut Butter.png in Resources */,
 				EF5A9C85171F9C79000CBABB /* Peppers.png in Resources */,
+				EF22878718E656AF00C2F14E /* warning-icon.png in Resources */,
 				EF5A9C86171F9C79000CBABB /* Potatoes.png in Resources */,
 				EF5A9C8F171F9ECA000CBABB /* Rice.png in Resources */,
 				EF5A9C90171F9ECA000CBABB /* Salsa.png in Resources */,

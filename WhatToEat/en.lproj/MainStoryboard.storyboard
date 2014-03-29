@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
@@ -23,7 +23,7 @@
                                 <items>
                                     <navigationItem title="What To Eat" id="E0C-Jl-0bf">
                                         <barButtonItem key="leftBarButtonItem" title="Favorites" id="KEt-55-Vfc">
-                                            <color key="tintColor" red="0.0" green="0.47734236590304413" blue="0.77545041454081631" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <connections>
                                                 <segue destination="3aM-m6-3ul" kind="modal" id="nVB-Jk-cjC"/>
                                             </connections>
@@ -36,7 +36,6 @@
                             </imageView>
                             <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10">
                                 <rect key="frame" x="287" y="72" width="22" height="22"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -258,13 +257,13 @@
         <scene sceneID="bCY-Vy-Nlp">
             <objects>
                 <tableViewController id="aUJ-m7-fD9" customClass="IngridientTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="60" sectionHeaderHeight="10" sectionFooterHeight="10" id="DsO-FH-c3e">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DsO-FH-c3e">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="IngredientCell" rowHeight="60" id="pxt-1u-aIU" customClass="IngredientCell">
-                                <rect key="frame" x="0.0" y="119" width="320" height="60"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pxt-1u-aIU" id="AWG-Gb-znR">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
@@ -322,13 +321,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="sNC-ke-k3A">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="Fia-Ez-EYb">
-                            <color key="tintColor" red="0.0" green="0.47734236590000001" blue="0.77545041449999996" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="CancelButton:" destination="aUJ-m7-fD9" id="2S2-dX-Y4v"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title=" Search " id="GBM-JZ-8xb">
-                            <color key="tintColor" red="0.0" green="0.47734236590000001" blue="0.77545041449999996" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="PerformSegue:" destination="aUJ-m7-fD9" id="n23-qh-mEU"/>
                                 <segue destination="PyQ-cS-NUG" kind="push" identifier="RecipeListSegue" id="Klv-x9-2aa"/>
@@ -507,8 +504,7 @@
                         </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="sac-g6-7dD">
-                        <barButtonItem key="rightBarButtonItem" title="Missing" style="done" id="BcV-Lm-bm1">
-                            <color key="tintColor" red="0.80000000000000004" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <barButtonItem key="rightBarButtonItem" image="warning-icon.png" id="BcV-Lm-bm1">
                             <connections>
                                 <action selector="NoIngWarning:" destination="SRM-zH-9uP" id="QEe-Hl-q7s"/>
                             </connections>
@@ -538,6 +534,7 @@
     </scenes>
     <resources>
         <image name="Background.png" width="320" height="585"/>
+        <image name="warning-icon.png" width="35" height="29"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -545,7 +542,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="3c3-38-pPY"/>
         <segue reference="9X9-93-JEC"/>
-        <segue reference="qfe-Ux-w9F"/>
     </inferredMetricsTieBreakers>
 </document>

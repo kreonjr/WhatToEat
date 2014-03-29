@@ -23,6 +23,11 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        UIImage *missingImg = [UIImage imageNamed:@"warning-icon.png"];
+        
+        missingImg = [missingImg imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        
+        [self.NoIngWarningBtn setImage:missingImg];
     }
     return self;
 }
